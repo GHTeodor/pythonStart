@@ -1,4 +1,4 @@
 print('Hello, world!')
 name = input("Введіть своє ім'я, будь ласка: ")
 print('Привіт, ' + name)
-print('1')
+print(f"Привіт, {name}!")
