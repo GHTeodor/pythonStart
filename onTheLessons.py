@@ -7,8 +7,7 @@ z = 3 if a < b else (1 if a == b else 2)
 
 print(f"a={a}, b={b}, z={z}")
 
-string = 'nAME'.capitalize()
-print(string)
+print('nAME'.capitalize())
 
 print(2, "--" * 40) # Lesson 2 ========================================================================================
 # print(r"1\'231'123''1\"")
