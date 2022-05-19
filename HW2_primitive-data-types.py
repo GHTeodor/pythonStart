@@ -8,8 +8,8 @@
 # та змінну time, куди запишіть результат.
 # Після цього використовуйте метод print(), щоб вивести в консоль результат.
 
-length = input("Enter length [km]: ") or 250
-velocity = input("Enter velocity ['km/h]: ") or 80
+length = int(input("Enter length [km]: ")) or 250
+velocity = int(input("Enter velocity ['km/h]: ")) or 80
 time = length / velocity
 print(f"Time=[{time}]=length[{length}]/velocity[{velocity}]")
 
