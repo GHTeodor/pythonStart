@@ -8,7 +8,7 @@ start, prev = 0, 1
 for i in range(100):
     print(start)
     fibN = start + prev
-    print(f"{str(start)}|{str(prev)}|{str(fibN)}")
+    # print(f"{str(start)}|{str(prev)}|{str(fibN)}")
     start = prev
     prev = fibN
-    print(f"{str(start)}|{str(prev)}|{str(fibN)}")
+    # print(f"{str(start)}|{str(prev)}|{str(fibN)}")
