@@ -1,5 +1,5 @@
 def procedure():
-    print('I return nothing... Or I do?')
+    return 'I return nothing... Or I do?'
 
 
 value = procedure()
