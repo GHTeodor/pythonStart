@@ -43,5 +43,5 @@ def max_divider(x, y):
 
 
 print(max_divider(15, 20))
-print(max_divider(21, 7))
+print(max_divider(-21, 7))
 print(max_divider('15', 15))
